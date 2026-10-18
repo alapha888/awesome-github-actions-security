@@ -28,6 +28,7 @@ All of these scanners use static analysis to detect misconfiguration and vulnera
 * [Actionlint](https://github.com/rhysd/actionlint) ([List of rules here](https://github.com/rhysd/actionlint/blob/main/docs/checks.md))
 * [Octoscan](https://github.com/synacktiv/octoscan) ([List of rules here](https://github.com/synacktiv/octoscan?tab=readme-ov-file#rules))
 * [Poutine](https://github.com/boostsecurityio/poutine) ([List of rules here](https://boostsecurityio.github.io/poutine/))
+* [RunnerDriftAudit](https://github.com/alapha888/runner-drift-audit) ([List of rules here](https://github.com/alapha888/runner-drift-audit/blob/main/docs/sarif-code-scanning.md))
 * [Zizmor](https://github.com/woodruffw/zizmor) ([List of rules here](https://woodruffw.github.io/zizmor/audits/))
 
 I'm currently using [all four of these scanners](https://github.com/johnbillion/plugin-infrastructure/blob/trunk/.github/workflows/reusable-workflow-lint.yml) on several of my repos. The scanners are complementary, they are all actively maintained, and together they provide good coverage of many aspects of workflow file security best practices as well as detecting misconfiguration and vulnerabilities.
